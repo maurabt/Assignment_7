@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Assignment5.Models
 {
@@ -27,8 +24,10 @@ namespace Assignment5.Models
                         Author = "Victor Hugo",
                         Publisher = "Signet",
                         ISBN = 0451419439,
-                        Class = "Fiction, Classic",
-                        Price = "9.95"
+                        Class = "Fiction",
+                        Type = "Classic",
+                        Price = "9.95",
+                        Pages = 1488
                     },
                     new Book
                     {
@@ -36,8 +35,10 @@ namespace Assignment5.Models
                         Author = "Doris Kearns Goodwin",
                         Publisher = "Simon & Schuster",
                         ISBN = 0743270755,
-                        Class = "Non-Fiction, Biography",
-                        Price = "14.58"
+                        Class = "Non-Fiction",
+                        Type = "Biography",
+                        Price = "14.58",
+                        Pages = 944
                     },
                     new Book
                     {
@@ -45,8 +46,10 @@ namespace Assignment5.Models
                         Author = "Alice Schroeder",
                         Publisher = "Bantam",
                         ISBN = 0553384611,
-                        Class = "Non-Fiction, Biography",
-                        Price = "21.54"
+                        Class = "Non-Fiction",
+                        Type = "Biography",
+                        Price = "21.54",
+                        Pages = 832
                     },
                     new Book
                     {
@@ -54,8 +57,10 @@ namespace Assignment5.Models
                         Author = "Ronald C. White",
                         Publisher = "Random House",
                         ISBN = 0812981254,
-                        Class = "Non-Fiction, Biography",
-                        Price = "11.61"
+                        Class = "Non-Fiction",
+                        Type = "Biography",
+                        Price = "11.61",
+                        Pages = 864
                     },
                     new Book
                     {
@@ -63,8 +68,10 @@ namespace Assignment5.Models
                         Author = "Laura Hillenbrand",
                         Publisher = "Random House",
                         ISBN = 0812974492,
-                        Class = "Non-Fiction, Historical",
-                        Price = "13.33"
+                        Class = "Non-Fiction",
+                        Type = "Historical",
+                        Price = "13.33",
+                        Pages = 528
                     },
                     new Book
                     {
@@ -72,8 +79,10 @@ namespace Assignment5.Models
                         Author = "Michael Crichton",
                         Publisher = "Vintage",
                         ISBN = 0804171281,
-                        Class = "Fiction, Historical Fiction",
-                        Price = "15.95"
+                        Class = "Fiction",
+                        Type = "Historical Fiction",
+                        Price = "15.95",
+                        Pages = 288
                     },
                     new Book
                     {
@@ -81,8 +90,10 @@ namespace Assignment5.Models
                         Author = "Cal Newport",
                         Publisher = "Grand Central Publishing",
                         ISBN = 1455586691,
-                        Class = "Non-Fiction, Self-Help",
-                        Price = "14.99"
+                        Class = "Non-Fiction",
+                        Type = "Self-Help",
+                        Price = "14.99",
+                        Pages = 304
                     },
                     new Book
                     {
@@ -90,8 +101,10 @@ namespace Assignment5.Models
                         Author = "Michael Abrashoff",
                         Publisher = "Grand Central Publishing",
                         ISBN = 1455523023,
-                        Class = "Non-Fiction, Self-Help",
-                        Price = "21.66"
+                        Class = "Non-Fiction",
+                        Type = "Self-Help",
+                        Price = "21.66",
+                        Pages = 240
                     },
                     new Book
                     {
@@ -99,8 +112,10 @@ namespace Assignment5.Models
                         Author = "Richard Branson",
                         Publisher = "Portfolio",
                         ISBN = 1591847984,
-                        Class = "Non-Fiction, Business",
-                        Price = "29.16"
+                        Class = "Non-Fiction",
+                        Type = "Business",
+                        Price = "29.16",
+                        Pages = 400
                     },
                     new Book
                     {
@@ -108,8 +123,43 @@ namespace Assignment5.Models
                         Author = "John Grisham",
                         Publisher = "Bantam",
                         ISBN = 0553393613,
-                        Class = "Fiction, Thrillers",
-                        Price = "15.03"
+                        Class = "Fiction",
+                        Type = "Thrillers",
+                        Price = "15.03",
+                        Pages = 642
+                    },
+                    new Book
+                    {
+                        Title = "The Screaming Staircase",
+                        Author = "Jonathan Stroud",
+                        Publisher = "Doubleday Children's Books",
+                        ISBN = 1423186922,
+                        Class = "Fiction",
+                        Type = "Thrillers",
+                        Price = "8.99",
+                        Pages = 416
+                    },
+                    new Book
+                    {
+                        Title = "Fly By Night",
+                        Author = "Frances Hardinge",
+                        Publisher = "HarperCollins Publishers",
+                        ISBN = 80060876272,
+                        Class = "Fiction",
+                        Type = "Fantasy",
+                        Price = "12.72",
+                        Pages = 448
+                    },
+                    new Book
+                    {
+                        Title = "The Magician's Dream",
+                        Author = "Shawn Thomas Odyssey",
+                        Publisher = "Egmont USA",
+                        ISBN = 81606845110,
+                        Class = "Fiction",
+                        Type = "Fantasy",
+                        Price = "20.68",
+                        Pages = 320
                     }
                 );
 

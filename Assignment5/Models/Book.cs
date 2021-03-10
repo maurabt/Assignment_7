@@ -13,10 +13,11 @@ namespace Assignment5.Models
         public string Title { get; set; }
         public string Author { get; set; }
         public string Publisher { get; set; }
-        public int ISBN { get; set; }
+        public long ISBN { get; set; }
         public string Class { get; set; }
+        public string Type { get; set; }
         public string Price { get; set; }
-
+        public int Pages { get; set; }
 
     }
 }
